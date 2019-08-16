@@ -1,0 +1,37 @@
+{
+  "Cardetail": [
+    {
+      "Name": "Alpha Sports",
+      "Price ": "Rs.3crore",
+      "State_registered": "Malaysia",
+      "Color ": "white",
+      "Transmission": "Manual"
+    },
+    {
+      "Name": "SixAustralian",
+      "Price ": "Rs.4crore",
+      "State_registered": "Europe",
+      "Color ": "Brown",
+      "Transmission": "Manual"
+    },
+    {
+      "Name": "IndustriesBirchfield",
+      "Price ": "Rs.5lakh",
+      "State_registered": "kerala",
+      "Color ": "white",
+      "Transmission": "Auto"
+    },
+    {
+      "Name": "Kaditcha",
+      "Price ": "Rs.9Lakh",
+      "State_registered": "Mumbai",
+      "Color ": "Black",
+      "Transmission": "Manual"
+    }
+   
+  ]
+}  
+
+
+
+

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarMax.Views.CarDetailsPage">
+    <ContentPage.Content>
+        <StackLayout Margin="0,20,0,0" HorizontalOptions="Start">
+            <Button x:Name="btn" Text="Back" Clicked="btn_Clicked"  HorizontalOptions="Start"
+      ></Button>
+            <Label Text="Find your cars" FontSize="Large" FontAttributes="Bold" TextColor="Cyan"
+                 
+                HorizontalOptions="Center" />
+            <Label Text ="{Binding nameview, StringFormat='Car Model: {0}'}"  HorizontalTextAlignment="Start" />
+            <Label Text ="{Binding priceview, StringFormat='Car Price: {0}'}" HorizontalTextAlignment="Start"/>
+
+
+            <Label Text="{Binding stateregistered, StringFormat='Car state: {0}'}" HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding transmissionview, StringFormat='Car Transmission: {0}'}" HorizontalTextAlignment="Start"/>
+            <Label Text="{Binding colorview, StringFormat='Car color: {0}'}" HorizontalTextAlignment="Start"/>
+            <!--<Button x:Name="btn" Text="Back" Clicked="orderbtn_Clicked"  HorizontalOptions="EndAndExpand"-->
+      <!--></Button>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
